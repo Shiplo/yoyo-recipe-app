@@ -1,6 +1,6 @@
 {
-  "homepage": "https://shiplo.github.io/YoYo-React-App",
-  "name": "learning-react",
+  "homepage": "https://shiplo.github.io/yoyo-react-app",
+  "name": "yoyo-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
