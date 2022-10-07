@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/yoyo-recipe-app/static/css/main.9821d908.css",
-    "main.js": "/yoyo-recipe-app/static/js/main.0402af2a.js",
+    "main.js": "/yoyo-recipe-app/static/js/main.e7c9fe38.js",
     "index.html": "/yoyo-recipe-app/index.html",
     "main.9821d908.css.map": "/yoyo-recipe-app/static/css/main.9821d908.css.map",
-    "main.0402af2a.js.map": "/yoyo-recipe-app/static/js/main.0402af2a.js.map"
+    "main.e7c9fe38.js.map": "/yoyo-recipe-app/static/js/main.e7c9fe38.js.map"
   },
   "entrypoints": [
     "static/css/main.9821d908.css",
-    "static/js/main.0402af2a.js"
+    "static/js/main.e7c9fe38.js"
   ]
 }
