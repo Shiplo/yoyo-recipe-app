@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yoyo-recipe-app/static/css/main.9821d908.css",
+    "main.js": "/yoyo-recipe-app/static/js/main.a50a6542.js",
+    "index.html": "/yoyo-recipe-app/index.html",
+    "main.9821d908.css.map": "/yoyo-recipe-app/static/css/main.9821d908.css.map",
+    "main.a50a6542.js.map": "/yoyo-recipe-app/static/js/main.a50a6542.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9821d908.css",
+    "static/js/main.a50a6542.js"
+  ]
+}
