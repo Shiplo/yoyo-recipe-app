@@ -11,7 +11,11 @@ function Search() {
     // Form Submit function
     const submitHandaler = (e) => {
         e.preventDefault();
-        navigate('/search/'+input);
+        if(input) {
+            navigate('/search/'+input);
+        } else {
+            navigate('/');
+        }
     }
 
   return (

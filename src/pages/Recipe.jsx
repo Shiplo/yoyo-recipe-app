@@ -25,7 +25,7 @@ function Recipe() {
         getDetails(params.id);
     }, [params.id]);
 
-    console.log(details)
+    //console.log(details)
     // Ingredient List
     const ingredientList = [];
     for ( let i = 1; i < 21; i++ ) {

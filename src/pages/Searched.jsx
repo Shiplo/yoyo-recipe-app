@@ -16,7 +16,9 @@ function Searched() {
         const data = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${text}`);
         const searchData = await data.json();
         // Set Search Data
-        setSearch(searchData.meals);
+        if(searchData) {
+            setSearch(searchData.meals);
+        }
     }
 
     // Get params on load
@@ -30,7 +32,7 @@ function Searched() {
         initial={{ opacity: 0 }} 
         exit={{ opacity: 0 }} 
         transition={{ duration: 0.5 }}>
-            {search ? search.map((result) => {
+            {search.length !== 0 && search.map((result) => {
                 return(
                     <Grid key={result.idMeal}>
                         <Link to={'/recipe/'+result.idMeal}>
@@ -39,7 +41,7 @@ function Searched() {
                         </Link>
                     </Grid>
                 );
-            }) : <h2>No Results Found!</h2>}
+            })}
         </Wrapper>
     )
 }
