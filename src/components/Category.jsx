@@ -6,19 +6,19 @@ import styled from "styled-components";
 function Category() {
   return (
     <List>
-        <Clink to={'/cuisine/Italian'}>
+        <Clink to={'/yoyo-recipe-app/cuisine/Italian'}>
             <FaPizzaSlice />
             <h4>Italian</h4>
         </Clink>
-        <Clink to={'/cuisine/American'}>
+        <Clink to={'/yoyo-recipe-app/cuisine/American'}>
             <FaHamburger />
             <h4>American</h4>
         </Clink>
-        <Clink to={'/cuisine/Thai'}>
+        <Clink to={'/yoyo-recipe-app/cuisine/Thai'}>
             <GiNoodles />
             <h4>Thai</h4>
         </Clink>
-        <Clink to={'/cuisine/Japanese'}>
+        <Clink to={'/yoyo-recipe-app/cuisine/Japanese'}>
             <GiChopsticks />
             <h4>Japanese</h4>
         </Clink>
