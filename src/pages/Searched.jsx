@@ -35,7 +35,7 @@ function Searched() {
             {search.length !== 0 && search.map((result) => {
                 return(
                     <Grid key={result.idMeal}>
-                        <Link to={'/recipe/'+result.idMeal}>
+                        <Link to={'/yoyo-recipe-app/recipe/'+result.idMeal}>
                             <img src={result.strMealThumb} alt={result.strMeal} />
                             <h5>{result.strMeal}</h5>
                         </Link>

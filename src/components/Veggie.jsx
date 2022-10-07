@@ -45,7 +45,7 @@ function Veggie() {
                     return(
                         <SplideSlide key={recipe.idMeal}>
                             <Card>
-                                <Link to={'/recipe/'+recipe.idMeal}>
+                                <Link to={'/yoyo-recipe-app/recipe/'+recipe.idMeal}>
                                     <img src={recipe.strMealThumb} alt={recipe.strMeal} />
                                     <Overlay />
                                     <h4>{recipe.strMeal}</h4>

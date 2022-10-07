@@ -12,9 +12,9 @@ function Search() {
     const submitHandaler = (e) => {
         e.preventDefault();
         if(input) {
-            navigate('/search/'+input);
+            navigate('/yoyo-recipe-app/search/'+input);
         } else {
-            navigate('/');
+            navigate('/yoyo-recipe-app/');
         }
     }
 

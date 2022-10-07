@@ -43,7 +43,7 @@ function Cuisine() {
             {cuisine.map((recipe) => {
                 return(
                     <Grid key={recipe.idMeal}>
-                        <Link to={'/recipe/'+recipe.idMeal}>
+                        <Link to={'/yoyo-recipe-app/recipe/'+recipe.idMeal}>
                             <img src={recipe.strMealThumb} alt={recipe.strMeal} />
                             <h5>{recipe.strMeal}</h5>
                         </Link>
