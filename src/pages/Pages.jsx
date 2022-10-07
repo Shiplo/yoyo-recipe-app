@@ -8,10 +8,11 @@ import Searched from './Searched';
 
 function Pages() {
   const location = useLocation();
+  cosnt pagePath = use
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
-          <Route path={'/'} element={<Home/>} />
+          <Route path={'https://shiplo.github.io/yoyo-recipe-app/'} element={<Home/>} />
           <Route path={'/cuisine/:type'} element={<Cuisine />} />
           <Route path={'/search/:type'} element={<Searched />} />
           <Route path={'/recipe/:id'} element={<Recipe />} />
