@@ -8,7 +8,6 @@ import Searched from './Searched';
 
 function Pages() {
   const location = useLocation();
-  cosnt pagePath = use
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
