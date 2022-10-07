@@ -8,7 +8,7 @@ function Header() {
   return (
     <HeaderWrap>
         <div className='logo'>
-            <Link to={'/'}>
+            <Link to={'/yoyo-recipe-app/'}>
                 <GiKnifeFork />
                 <span>Yo Yo</span>
             </Link>

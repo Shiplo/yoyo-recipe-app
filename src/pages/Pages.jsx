@@ -11,10 +11,10 @@ function Pages() {
   return (
     <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
-          <Route exact path="/" element={<Home/>} />
-          <Route path={'/cuisine/:type'} element={<Cuisine />} />
-          <Route path={'/search/:type'} element={<Searched />} />
-          <Route path={'/recipe/:id'} element={<Recipe />} />
+          <Route path={'/yoyo-recipe-app/'} element={<Home/>} />
+          <Route path={'/yoyo-recipe-app/cuisine/:type'} element={<Cuisine />} />
+          <Route path={'/yoyo-recipe-app/search/:type'} element={<Searched />} />
+          <Route path={'/yoyo-recipe-app/recipe/:id'} element={<Recipe />} />
       </Routes>
     </AnimatePresence>
   )
